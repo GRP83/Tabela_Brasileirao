@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imgtime"
+        android:src="@drawable/ic_trem"
+        android:layout_width="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="100dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pg"
+            android:text="PG"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/j"
+            android:text="J"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/v"
+            android:text="V"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtpg"
+            android:text="vitorias"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtj"
+            android:text="jogos"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/txtv"
+            android:text="vitorias"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gp"
+            android:text="GP"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/e"
+            android:text="E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/D"
+            android:text="D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtgp"
+            android:text="gp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/txte"
+            android:text="empates"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtd"
+            android:text="derrotas"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gc"
+            android:text="GC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/sg"
+            android:text="SG"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/ap"
+            android:text="AP"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtgc"
+            android:text="gc"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtsg"
+            android:text="sg"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/txtap"
+            android:text="ap"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
